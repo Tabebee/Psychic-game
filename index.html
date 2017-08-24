@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Psychic Game</title>
+
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <header class="navbar col-md-12">
+        <h1> The Psychic Game</h1>
+    </header>
+
+    <div class="row">
+        <section class="col-md-3 col-sm-3 col-xs-3">
+
+            <!--3 Images will go here-->
+            <img src="assets/images/psychic-ability.jpg" class="pics img-responsive">
+            <img src="assets/images/PsychicPowers.jpg" class="pics img-responsive">
+            <img src="assets/images/psychic-ability.jpg" class="pics img-responsive">
+
+        </section>
+
+        <section class="gamestyle col-md-6 col-sm-6 col-xs-6" id="game">
+            <!--Entire Game will go here-->
+            <h2 class="center"> Lets see what you got!</h2>
+                <p><strong>How to Play:</strong> Press any letter on your keyboard.</p>
+                <p><strong>Objective:</strong> To guess what letter the computer is thinking of</p>
+                <p class="center">Dont forget to have fun!!!</p>
+
+        <div id="game">
+            <ul class="list-group">
+                <li class="list-group-item"> Wins: <span id="wins"></span></li>
+                <li class="list-group-item"> Losses: <span id="losses"></span></li>
+                <li class="list-group-item"> Guesses Left: <span id="guessesLeft"></span></li>
+                <li class="list-group-item"> Guesses Made: <span id="lettersGuessed"></span></li>
+            </ul>
+        </div>
+            <p><strong>PRO TIP:</strong>Dont guess a letter you have allready pressed as it will register
+            them as SEPARATE guesses and push you closer to defeat!</p>
+            <h4 class="center">YIKES!!!</h4>
+
+        </section>
+
+        <section class="col-md-3 col-sm-3 col-xs-3">
+            <!--3 Images will go here-->
+            <img src="assets/images/psychic-ability.jpg" class="pics img-responsive">
+            <img src="assets/images/PsychicPowers.jpg" class="pics img-responsive">
+            <img src="assets/images/psychic-ability.jpg" class="pics img-responsive">
+
+        </section>
+
+
+
+    </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
