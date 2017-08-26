@@ -39,13 +39,6 @@ document.onkeyup = function(event) {
         guessesLeft--;
     }
 
-    // if (guessesLeft > 0) {
-    //     var lettersGuessedSpan = document.getElementById('lettersGuessed');
-    //     lettersGuessedSpan.textContent = lettersGuessedSpan.textContent + user + ", ";
-    // } else if (guessesLeft === 0) {
-    //     lettersGuessed = [];
-    // }
-
     var winsSpan = document.getElementById('wins');
     winsSpan.textContent = wins;
 
@@ -55,15 +48,7 @@ document.onkeyup = function(event) {
     var guessesLeftSpan = document.getElementById('guessesLeft');
     guessesLeftSpan.textContent = guessesLeft;
 
-    // var lettersGuessedSpan = document.getElementById('lettersGuessed');
-    // lettersGuessedSpan.textContent = lettersGuessedSpan.textContent + user + ", ";
-
-    console.log(user);
-    console.log(guess);
     };
-
-    // var updateLettersGuessedSpan = document.getElementById('lettersGuessed');
-    // updateLettersGuessedSpan.textContent = user;
 
 
 
